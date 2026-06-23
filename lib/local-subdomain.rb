@@ -1,6 +1,6 @@
 require 'local-subdomain/version'
 require 'local-subdomain/filters/local_subdomain'
-require 'local-subdomain/rack/handler'
+require 'local-subdomain/rackup/handler'
 
 module LocalSubdomain
 end

@@ -1,7 +1,7 @@
 # Override the Rack::Handler to bind to 0.0.0.0 which is required to support
 # http://lvh.me redirects
 
-module Rack
+module Rackup
   module Handler
     class << self
       alias_method :orig_default, :default
